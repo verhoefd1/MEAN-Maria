@@ -1,0 +1,35 @@
+{
+  "name": "sql-mean-template",
+  "version": "1.0.0",
+  "description": "A starting point for SQL driven webapps",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "docker": "docker-compose up --build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/verhoefd1/MEAN-MySQL"
+  },
+  "keywords": [
+    "SQL",
+    "template"
+  ],
+  "author": "Dylan Verhoef",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/verhoefd1/MEAN-MySQL/issues"
+  },
+  "homepage": "https://github.com/verhoefd1/MEAN-MySQL#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "method-override": "^3.0.0",
+    "bootstrap": "^5.3.3",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mariadb": "^3.3.0",
+    "nodemon": "^3.1.0"
+  }
+}
