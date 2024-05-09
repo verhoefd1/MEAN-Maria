@@ -1,5 +1,5 @@
 #Specifies the image of your engine
-FROM node:16.13.2
+FROM node:latest
 
 #The working directory inside your container
 WORKDIR /app
